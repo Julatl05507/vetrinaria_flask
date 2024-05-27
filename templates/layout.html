@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta name="keywords" content="HTML5, CSS3">
+<title>Ejemplo de estructura HTML5</title>
+<link rel="stylesheet" href="/static/estilos.css">
+</head>
+<body>
+<header>
+   <img id="imprincipal" src="/static/imagenes/veterinaria.png" width="10%">
+</header>
+
+<nav>
+    <ul>
+        <li><a href="/index">Inicio</a></li>
+        <li><a href="/perros">Perros</a></li>
+        <li><a href="/gatos">Gatos</a></li>
+        <li><a href="/hamster">Hamsters</a></li>
+        <li><a href="/crud">Crud</a></li>
+        <li><a href="/contactanos">contactos</a></li>
+    </ul>
+</nav>
+    
+{% block content %}
+{% endblock  content %}
+  
+<footer>
+    <p id="letra">Contactanos:</p>
+    <img id="imgfoot" src="/static/imagenes/whats.png" alt="whats" width="2%"><a id="contactos" href="https://www.whatsapp.com/?lang=es_LA">Whatsapp</a>
+    <br>
+    <img id="imgfoot" src="/static/imagenes/face.png" alt="face" width="2%"><a id="contactos" href="https://www.facebook.com/?locale=es_LA">Facebook</a>
+    <br>
+    <img id="imgfoot" src="/static/imagenes/insta2.jpg" alt="insta" width="2%"><a id="contactos" href="https://www.instagram.com">Intagram</a>
+</footer>
+  
+</body>
+</html>

@@ -1,0 +1,102 @@
+header, nav, .main, footer{
+    width: 95%;
+    max-width: 1000px;
+    margin: 10px auto;
+    border-radius: 0.7rem;
+}
+
+body{
+    background: linear-gradient(0deg, white, rgb(104, 180, 246));
+}
+h2, h3, h4, h5{
+    font-family: 'Cambria Rounded', Arial, sans-serif;
+    font-size:x-large;
+}
+
+#letra{
+    font-family: 'Cambria Rounded', Arial, sans-serif;
+    font-size:small;
+}
+
+#imagen{
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    border-width: 1.5px;
+    border-style: solid;
+}
+
+#imprincipal{
+    border-radius:150px;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-style: solid;
+    -webkit-box-shadow: -1px 0px 50px 2px #0021c5;
+    -moz-box-shadow: -1px 0px 50px 2px #0021c5;
+    box-shadow: -1px 0px 50px 2px #0021c5;
+}
+
+nav{
+    background: linear-gradient(0deg, rgb(115, 194, 255), rgb(0, 13, 255));
+    border: 0.2rem solid #8b8e9c;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    padding: 10px 20px;
+}
+
+nav li:hover{
+    background-color: rgb(0, 34, 255);
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+.main .articles{
+    width: 60%;
+    margin-right: 1.5%;
+    background: linear-gradient(to right, rgb(112, 112, 112), rgb(68, 68, 68));
+    float:left;
+}
+.main .articles article{
+    padding: 10px;
+    background: linear-gradient(to right, rgb(112, 112, 112), rgb(68, 68, 68));
+    margin-bottom: 10px;
+}
+
+aside{
+    width: 30%;
+    float: left;
+    background: linear-gradient(0deg, orange, rgb(255, 234, 0));
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+footer{
+    clear:both;
+    background: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+#contactos{
+    color:white;
+    text-decoration: none;
+}
+
+#imgfoot{
+    border-radius:150px;
+}
+
+h6{
+    float: center;
+    margin-right: 1%;
+    font-size: xx-large;text-shadow: 1px 1px 2px black;
+}
